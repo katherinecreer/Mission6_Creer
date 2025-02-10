@@ -1,0 +1,44 @@
+@{
+    ViewData["Title"] = "Movies";
+}
+
+<form asp-action="Create">
+    <label>Title:</label>
+    <input type="text" name="Title" required />
+    <br/>
+    <br/>
+    <label>Category:</label>
+    <input type="text" name="Category" required />
+    <br/>
+    <br/>
+    <label>Year:</label>
+    <input type="number" name="Year" required />
+    <br/>
+    <br/>
+    <label>Director:</label>
+    <input type="text" name="Director" required />
+    <br/>
+    <br/>
+    <label>Rating:</label>
+    <select name="Rating">
+        <option>G</option>
+        <option>PG</option>
+        <option>PG-13</option>
+        <option>R</option>
+    </select>
+    <br/>
+    <br/>
+    <label>Edited:</label>
+    <input type="checkbox" name="Edited" />
+    <br/>
+    <br/>
+    <label>Lent To:</label>
+    <input type="text" name="LentTo" />
+    <br/>
+    <br/>
+    <label>Notes:</label>
+    <input type="text" name="Notes" maxlength="25" />
+    <br/>
+    <br/>
+    <button type="submit">Add Movie</button>
+</form>
