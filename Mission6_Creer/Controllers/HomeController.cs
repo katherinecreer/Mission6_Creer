@@ -2,29 +2,38 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Mission6_Creer.Models;
 
-namespace Mission6_Creer.Controllers;
-
-public class HomeController : Controller
+namespace Mission6_Creer.Controllers
 {
-    public IActionResult Index()
+    public class HomeController : Controller
     {
-        return View();
-    }
+        private MovieContext _context;
 
-    public IActionResult AboutJoel()
-    {
-        return View();
-    }
+        public HomeController(MovieContext temp)
+        {
+            _context = temp;
+        }
 
-    public IActionResult Movies()
-    {
-        return View();
-    }
+        public IActionResult Index()
+        {
+            return View();
+        }
 
-    [HttpPost]
-    public IActionResult Movies(Movie response)
-    {
-        return View("Confirmation", response);
-    }
+        public IActionResult AboutJoel()
+        {
+            return View();
+        }
 
+        public IActionResult Movies()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Movies(Movie response)
+        {
+            _context.Movies.Add(response);
+            _context.SaveChanges();
+            return View("Confirmation", response);
+        }
+    }
 }
