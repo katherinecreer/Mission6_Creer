@@ -8,10 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b893cfc-8a94-49bd-8e28-eddafc362e02" name="Changes" comment="Addded DB">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mission6_Creer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mission6_Creer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mission6_Creer/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mission6_Creer/Controllers/HomeController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="2b893cfc-8a94-49bd-8e28-eddafc362e02" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +65,11 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Mission6_Creer: http">
@@ -114,7 +116,7 @@
       <workItem from="1739379422367" duration="2091000" />
       <workItem from="1739556330652" duration="861000" />
       <workItem from="1739746431694" duration="2004000" />
-      <workItem from="1739748508853" duration="6305000" />
+      <workItem from="1739748508853" duration="6494000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -132,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739755139548</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DB has 4 records.">
+      <option name="closed" value="true" />
+      <created>1739761884125</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739761884126</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +165,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="Addded DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addded DB" />
+    <MESSAGE value="DB has 4 records." />
+    <option name="LAST_COMMIT_MESSAGE" value="DB has 4 records." />
   </component>
 </project>
